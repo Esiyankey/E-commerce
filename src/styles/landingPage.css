@@ -179,6 +179,38 @@
     border: 2px solid #003b8c;
 }
 
+.newest-products{
+  padding: 2rem 0;
+  border-bottom: 1px solid ;
+  width: 67rem;
+  margin: auto;
+  display: none;
+}
+.newest-products h4{
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #ee9090;
+}
+.grid-images{
+  width: 67rem;
+  margin: auto;
+}
+.grid-container{
+  margin-top: 3rem;
+}
+.card-images{
+  width: 13rem;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-images img{
+  width: 100%;
+
+}
+
+
 @media screen and (min-width: 850px) {
   .navbar {
     justify-content: space-around;
@@ -210,8 +242,23 @@
     color: black;
   }
   /* hero */
+  .hero{
+    height: 50rem;
+    margin-top: 2rem;
+
+  }
+  .hero-overlay{
+    padding-left: 33rem;
+  }
   .hero-overlay h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
     color: white;
+  }
+  .hero-overlay p{
+    font-size: 1.2rem;
+    width:60rem;
+  }
+  .newest-products{
+    display: flex;
   }
 }
